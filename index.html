@@ -61,7 +61,9 @@
   </div>
   <style>
   .modal {
-    display: none;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     position: fixed;
     z-index: 9999;
     left: 0;
@@ -70,12 +72,12 @@
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
-    
-  }
+}
+
   
   .modal-content {
     background-color: #fefefe;
-    margin: 15% auto;
+/*     margin: 15% auto; */
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
